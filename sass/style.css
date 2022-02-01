@@ -19,3 +19,21 @@ header .btn, .btn{
     background-color: gold;
     border: none;
 }
+
+footer li{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 30px;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block; 
+}
+
+footer i{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
