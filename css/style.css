@@ -1,3 +1,40 @@
+/* Global */
+::before, ::after {
+  box-sizing: border-box;
+}
 
+html, body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin: 0;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.navbar .navbar-brand {
+  color: gold;
+  font-family: "Dancing Script", cursive;
+}
+
+header .btn, .btn {
+  background-color: gold;
+  border: none;
+}
+
+footer li {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  line-height: 60px;
+  font-size: 30px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+footer i {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuY3NzIiwic3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFdBQUE7QUFFQTtFQUNJLHNCQUFBO0FDQUo7O0FER0E7RUFDSSw0Q0FBQTtFQUNBLGVBQUE7RUFDQSxTQUFBO0FDQUo7O0FER0E7RUFDSSxXQUFBO0VBQ0Esc0NBQUE7QUNBSjs7QURHQTtFQUNJLHNCQUFBO0VBQ0EsWUFBQTtBQ0FKOztBREdBO0VBQ0ksV0FBQTtFQUNBLFlBQUE7RUFDQSx1QkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtFQUNBLHFCQUFBO0FDQUo7O0FER0E7RUFDSSxZQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUNBSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

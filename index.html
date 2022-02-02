@@ -8,12 +8,12 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-        <link rel="stylesheet" href="vendor/">
+        <!-- <link rel="stylesheet" href="vendor/"> -->
         <link rel="stylesheet" href="sass/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top header-nav navbar-light">
+        <nav class="navbar navbar-expand-lg fixed-top header-nav navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Golden</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,42 +31,138 @@
             </div>
         </nav>
 
-        <header>
-            <div class="container-fluid">
-                <img  src="https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="accessories">
-                <div class="">
-                    <p class="fs-4 fw-italic text-center">Welcome to our Studio</p>
-                    <p class="fs-2 fw-bold text-center">IT'S NICE TO MEET YOU</p>
-                    <a class="btn btn-primary" href="#">Tell me more</a>
-                </div>
+        <header class="splash">
+            <img src="https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="accessories">
+            <div class="splash-inner">
+                <p class="page-title">Welcome to our Studio</p>
+                <p class="page-subtitle">IT'S NICE TO MEET YOU</p>
+                <a class="btn btn-primary" href="#">Tell me more</a>
             </div>
         </header>
 
         <section class="service">
             <div class="container">
-                <h2 class="text-center">Services</h2>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2 class="service-title">SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="row">
-                    <div class="col-md-4 px-5 order-md-2">
+                    <div class="col-lg-4 px-4">
+                        <div class="service-icon">
+                            <a><i class="fas fa-shopping-basket"></i></a>
+                        </div>
+                        <div class="service-text">
+                            <h3>E-commerce</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga voluptatem illum quo?</p>
+                        </div>
                     </div>
-                    <div class="col-md-4 px-5 order-md-3">
+                    <div class="col-lg-4 px-4">
+                        <div class="service-icon">
+                            <a><i class="fas fa-laptop-code"></i></i></a>
+                        </div>
+                        <div class="service-text">
+                            <h3>Responsive Web</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga voluptatem illum quo?</p>
+                        </div>
                     </div>
-                    <div class="col-md-4 px-5 order-md-1">
+                    <div class="col-lg-4 px-4">
+                        <div class="service-icon">
+                            <a><i class="fas fa-lock"></i></i></a>
+                        </div>
+                        <div class="service-text">
+                            <h3>Web Security</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga voluptatem illum quo?</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <footer class="p-3">
+        <section class="portfolio py-5">
+            <div class="container">
+                <h2 class="portfolio-title">OUR PORTFOLIO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card mr-3 mb-3">
+                            <div class="card-image">
+                                <img class="w-100" src="https://images.pexels.com/photos/244133/pexels-photo-244133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="office">
+                            </div>
+                            <div class="card-body">
+                                <h5>Office</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mr-3 mb-3">
+                            <div class="card-image">
+                                <img class="w-100" src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="woman-desk">
+                            </div>
+                            <div class="card-body">                                    
+                                <h5>Women style</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mr-3 mb-3">
+                            <div class="card-image">
+                                <img class="w-100" src="https://images.pexels.com/photos/2058146/pexels-photo-2058146.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="hands">
+                            </div>
+                            <div class="card-body">                                    
+                                <h5>Comunication</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mr-3 mb-3">
+                            <div class="card-image">
+                                <img class="w-100" src="https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="desk">
+                            </div>
+                            <div class="card-body">                                    
+                                <h5>Desk</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mr-3 mb-3">
+                            <div class="card-image">
+                                <img class="w-100" src="https://images.pexels.com/photos/1251841/pexels-photo-1251841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="men">
+                            </div>
+                            <div class="card-body">                                    
+                                <h5>Men</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card mr-3 mb-3">
+                            <div class="card-image">
+                                <img class="w-100" src="https://images.pexels.com/photos/1106476/pexels-photo-1106476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="building-outside">
+                            </div>
+                            <div class="card-body">                                    
+                                <h5>Building</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="pt-2">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <p><i class="far fa-copyright"></i> Golden Corp.<p>    
+                        <p><i class="far fa-copyright"></i> Golden Corp.</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                         </ul>
                     </div>
                 </div>
