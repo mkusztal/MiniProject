@@ -7,7 +7,6 @@
 html, body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin: 0;
 }
 
 section{
@@ -27,9 +26,18 @@ section{
 
 /* Navbar */
 
+.container-fluid{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .navbar .navbar-brand{
     color: gold;
     font-family: 'Dancing Script', cursive;
+}
+
+.navbar a{
+    color: white;
 }
 
 /* splash */
@@ -93,15 +101,28 @@ section{
     text-align: center;
 }
 
+.service .col-lg-4{
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
 /* Our portfolio */
 
 .portfolio{
     background-color: ghostwhite;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.portfolio .card{
+    margin-right: 16px;
+    margin-bottom: 16px;
 }
 
 /* footer */
 footer{
     text-align: center;
+    padding-top: 8px;
 }
 
 footer .container p{
