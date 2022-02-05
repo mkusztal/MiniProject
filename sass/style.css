@@ -140,11 +140,17 @@ footer li{
     font-size: 15px;
     margin-right: 10px;
     text-align: center;
-    display: inline-block; 
+    display: inline-block;
 }
 
 footer li i{
     color: white;
     width: 15px;
     height: 15px;
+}
+/* mobile */
+
+@media (max-width: 767px){
+
+
 }
