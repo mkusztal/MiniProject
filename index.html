@@ -1,176 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>MiniProject</title>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="vendor/"> -->
-        <link rel="stylesheet" href="sass/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg fixed-top header-nav">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Golden</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="mobile-menu">
-                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li><a class="nav-link" href="#">Home</a></li>
-                        <li><a class="nav-link" href="#">Service</a></li>
-                        <li><a class="nav-link" href="#">Porfolio</a></li>
-                        <li><a class="nav-link" href="#">About</a></li>
-                        <li><a class="nav-link" href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MiniProject</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="vendor/"> -->
+    <link rel="stylesheet" href="sass/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg header-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Golden</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mobile-menu"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mobile-menu">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li><a class="nav-link" href="#">Home</a></li>
+            <li><a class="nav-link" href="#services">Service</a></li>
+            <li><a class="nav-link" href="#portfolio">Porfolio</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-        <header class="splash">
-            <img src="https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="accessories">
-            <div class="splash-inner">
-                <p class="page-title">Welcome to our Studio</p>
-                <p class="page-subtitle">IT'S NICE TO MEET YOU</p>
-                <a class="btn btn-primary" href="#">Tell me more</a>
-            </div>
-        </header>
+    <header class="splash">
+      <img
+        src="https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+        alt="accessories"
+      />
+      <div class="splash-inner">
+        <p class="page-title">Welcome to our Studio</p>
+        <p class="page-subtitle">IT'S NICE TO MEET YOU</p>
+        <a class="btn btn-primary" href="#services">Tell me more</a>
+      </div>
+    </header>
 
-        <section class="service">
-            <div class="container">
-                <h2 class="service-title">SERVICES</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="service-icon">
-                            <a href="#" aria-label="basket"><i class="fas fa-shopping-basket"></i></a>
-                        </div>
-                        <div class="service-text">
-                            <h3>E-commerce</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga voluptatem illum quo?</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-icon">
-                            <a href="#" aria-label="code"><i class="fas fa-laptop-code"></i></a>
-                        </div>
-                        <div class="service-text">
-                            <h3>Responsive Web</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga voluptatem illum quo?</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-icon">
-                            <a href="#" aria-label="lock"><i class="fas fa-lock">lock</i></a>
-                        </div>
-                        <div class="service-text">
-                            <h3>Web Security</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga voluptatem illum quo?</p>
-                        </div>
-                    </div>
-                </div>
+    <section class="service" id="services">
+      <div class="container">
+        <h2 class="service-title">SERVICES</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service-icon">
+              <a href="#" aria-label="basket"
+                ><i class="fas fa-shopping-basket"></i
+              ></a>
             </div>
-        </section>
-
-        <section class="portfolio">
-            <div class="container">
-                <h2 class="portfolio-title">OUR PORTFOLIO</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="w-100" src="https://images.pexels.com/photos/244133/pexels-photo-244133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="office">
-                            </div>
-                            <div class="card-body">
-                                <h5>Office</h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="w-100" src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="woman-desk">
-                            </div>
-                            <div class="card-body">
-                                <h5>Women style</h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="w-100" src="https://images.pexels.com/photos/2058146/pexels-photo-2058146.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="hands">
-                            </div>
-                            <div class="card-body">
-                                <h5>Comunication</h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card mr-3 mb-3">
-                            <div class="card-image">
-                                <img class="w-100" src="https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="desk">
-                            </div>
-                            <div class="card-body">
-                                <h5>Desk</h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card mr-3 mb-3">
-                            <div class="card-image">
-                                <img class="w-100" src="https://images.pexels.com/photos/1251841/pexels-photo-1251841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="men">
-                            </div>
-                            <div class="card-body">
-                                <h5>Men</h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-image">
-                                <img class="w-100" src="https://images.pexels.com/photos/1106476/pexels-photo-1106476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="building-outside">
-                            </div>
-                            <div class="card-body">
-                                <h5>Building</h5>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="service-text">
+              <h3>E-commerce</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga
+                voluptatem illum quo?
+              </p>
             </div>
-        </section>
-
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <p><i class="far fa-copyright"></i> Golden Corp.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item"><a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item"><a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item"><a href="#" aria-label="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
-                            <li class="list-inline-item"><a href="#" aria-label="google"><i class="fab fa-google-plus-g"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-icon">
+              <a href="#" aria-label="code"
+                ><i class="fas fa-laptop-code"></i
+              ></a>
             </div>
-        </footer>
+            <div class="service-text">
+              <h3>Responsive Web</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga
+                voluptatem illum quo?
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-icon">
+              <a href="#" aria-label="lock"><i class="fas fa-lock">lock</i></a>
+            </div>
+            <div class="service-text">
+              <h3>Web Security</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Facilis ullam aspernatur inventore eveniet. Ducimus quam fuga
+                voluptatem illum quo?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
-    </body>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="portfolio-title">OUR PORTFOLIO</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  class="w-100"
+                  src="https://images.pexels.com/photos/244133/pexels-photo-244133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                  alt="office"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Office</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  class="w-100"
+                  src="https://images.pexels.com/photos/3178818/pexels-photo-3178818.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="woman-desk"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Women style</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  class="w-100"
+                  src="https://images.pexels.com/photos/2058146/pexels-photo-2058146.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="hands"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Comunication</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mr-3 mb-3">
+              <div class="card-image">
+                <img
+                  class="w-100"
+                  src="https://images.pexels.com/photos/3987020/pexels-photo-3987020.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="desk"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Desk</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mr-3 mb-3">
+              <div class="card-image">
+                <img
+                  class="w-100"
+                  src="https://images.pexels.com/photos/1251841/pexels-photo-1251841.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="men"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Men</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-image">
+                <img
+                  class="w-100"
+                  src="https://images.pexels.com/photos/1106476/pexels-photo-1106476.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="building-outside"
+                />
+              </div>
+              <div class="card-body">
+                <h5>Building</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <p><i class="far fa-copyright"></i> Golden Corp.</p>
+          </div>
+          <div class="col-lg-6">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" aria-label="facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" aria-label="instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" aria-label="pinterest"
+                  ><i class="fab fa-pinterest-p"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" aria-label="google"
+                  ><i class="fab fa-google-plus-g"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+      integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
